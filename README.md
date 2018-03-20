@@ -1,11 +1,9 @@
 Experimental projects looking at Bluetooth services with encrypted characteristics.
 
-The service has one characteristic with read, write, notify properties. The permissions require encryption for read and write. Write Uint32LE values to the characteristic.
+The service has one characteristic with read, write, notify properties. The permissions require encryption for read and write. 
 
-istic with read, write, notify properties. The permissions require encryption for read and write. Write Uint32LE values to the characteristic.
-
-SERVICE_UUID 24E1B2B0-3218-425E-B940-F52CF4F7D88C
-CHARACTERISTIC_UUID 24E1B2B1-3218-425E-B940-F52CF4F7D88C 4 byte Uint32LE
+    SERVICE        24E1B2B0-3218-425E-B940-F52CF4F7D88C
+    CHARACTERISTIC 24E1B2B1-3218-425E-B940-F52CF4F7D88C 4 byte Uint32LE read, write, notify
 
 ## bleno
 
